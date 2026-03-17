@@ -1,15 +1,21 @@
 default_dirs:
   skills:
-    - default: .claude/skills/
-    - global: ~/.claude/skills/
+    - default: .opencode/skills/
+    - global: %userprofile%/.config/opencode/skills/
   agents:
-    - default: .claude/agents/
-    - global: ~/.claude/agents/
+    - default: .opencode/agents/
+    - global: %userprofile%/.config/opencode/agents/
   prompts:
-    - default: .claude/commands/
-    - global: ~/.claude/commands/
+    - default: .opencode/command/
+    - global: %userprofile%/.config/opencode/command/
 
 library:
-  skills: []
-  agents: []
+  skills:
+    - name: testskills
+      description: 
+      source: https://github.com/supermemoryai/supermemory/blob/main/skills/supermemory/SKILL.md
+  agents: 
+    - name: testagents
+      description: 
+      source: https://github.com/giselles-ai/giselle/blob/main/.claude/agents/proofreader.md
   prompts: []
