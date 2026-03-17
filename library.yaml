@@ -1,13 +1,13 @@
 default_dirs:
   skills:
     - default: .opencode/skills/
-    - global: %userprofile%/.config/opencode/skills/
+    - global: ~/.opencode/skills/
   agents:
     - default: .opencode/agents/
-    - global: %userprofile%/.config/opencode/agents/
+    - global: ~/.opencode/agents/
   prompts:
     - default: .opencode/command/
-    - global: %userprofile%/.config/opencode/command/
+    - global: ~/.opencode/command/
 
 library:
   skills:
